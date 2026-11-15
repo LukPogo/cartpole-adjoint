@@ -1,0 +1,27 @@
+# CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+
+# Generated simulation results
+data/continuous/*.h5
+data/discrete/*.h5
+
+# JetBrains IDEs
+.idea/
+
+# Experimental symbolic calculations
+/python/equations_check/

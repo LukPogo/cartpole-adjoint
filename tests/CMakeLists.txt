@@ -1,0 +1,7 @@
+add_executable(test_dynamics test_dynamics.cpp)
+target_link_libraries(test_dynamics PRIVATE cartpole_core)
+add_test(NAME test_dynamics COMMAND test_dynamics)
+
+add_executable(test_discrete_dynamics test_discrete_dynamics.cpp)
+target_link_libraries(test_discrete_dynamics PRIVATE cartpole_core)
+add_test(NAME test_discrete_dynamics COMMAND test_discrete_dynamics)
